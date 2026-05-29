@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.2.15
+
+### Changed
+
+- Branch (in-place) workspace sessions now create pull requests in-place by default instead of redirecting the agent to spawn a parallel worktree session. Picking a branch workspace is treated as the signal that work belongs in the local clone, and repo-specific guidance in AGENTS.md / CLAUDE.md takes precedence over the app's general advice. The `create_pull_request` soft gate that previously refused on branch workspaces without `allow_in_place: true` has been removed.
+
+### Fixed
+
+- Reduced UI lag in the system tray menu during workspace switching and streaming
+
 ## v0.2.14
 
 ### Added
