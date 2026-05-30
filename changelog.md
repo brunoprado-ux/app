@@ -1,5 +1,23 @@
 # Changelog
 
+## v0.2.17
+
+### Added
+
+- Extensions can now be installed from a GitHub repository folder URL (e.g. `https://github.com/{owner}/{repo}/tree/{ref}/{path}`), in addition to gist URLs.
+- The agent can now edit GitHub Actions workflow files (`.github/workflows/`) directly using its OAuth token, without requiring separate local Git credentials or the `gh` CLI.
+
+### Changed
+
+- Workflow tool calls (such as renaming sessions, running SQL queries, storing memory, and navigating) are now visible in the conversation timeline instead of being hidden, so you can see more of what the agent is doing.
+
+### Fixed
+
+- Clicking the plan.md filename link in a Create/Edit tool-call card now opens the Plan tab instead of doing nothing.
+- Decision prompts (questions, plans, permission requests) no longer steal focus when they appear, preventing accidental option selection or dismissal while typing.
+- Fixed a floating "Loading conversation…" label that was incorrectly visible while pull request comments were loading; the text is now hidden visually but still announced to screen readers.
+- Model picker tooltip now correctly shows context window size and pricing details when connected to a cloud session.
+
 ## v0.2.16
 
 ### Added
@@ -57,7 +75,7 @@
 
 ### Added
 
-- Added experimental Voice mode that lets you capture speech locally and insert transcripts into the composer using a configurable shortcut, with support for push-to-talk or toggle mode, microphone device selection, and local transcription model management.
+- Added experimental Voice dictation that lets you capture speech locally and insert transcripts into the composer using a configurable shortcut, with support for push-to-talk or toggle mode, microphone device selection, and local transcription model management.
 
 ### Changed
 
