@@ -45,9 +45,6 @@ This repo is the public home for the GitHub Copilot app. Use it to:
 - Join discussions
 - Read release notes in [`changelog.md`](./changelog.md)
 
-The application source lives elsewhere; this repo is for releases, issues, and discussion.
-
-
 ## Feedback
 
 Report problems or feature requests for the GitHub Copilot app team in the [Issues](https://github.com/github/app/issues) tab. When filing an issue, please include:
@@ -59,7 +56,7 @@ Report problems or feature requests for the GitHub Copilot app team in the [Issu
 - Screenshots or videos
 - Logs from the `/collect-debug-logs` command. Note: These logs may contain sensitive information.
 
-For open-ended questions, please visit the [`Discussions`](https://github.com/github/app/discussions) tab.
+For open-ended questions, please visit the [Discussions](https://github.com/github/app/discussions) tab.
 
 ## License
 
