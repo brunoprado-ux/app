@@ -2,6 +2,12 @@
 
 The GitHub Copilot app is a desktop application for agent-driven development that brings parallel workstreams, GitHub integration, and PR lifecycle management into one place.
 
+<p align="center">
+  <a href="https://github.com/github/app#install">
+    <img alt="Download GitHub Copilot app" src="https://img.shields.io/badge/Download-GitHub%20Copilot%20app-0969DA?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
+
 > **Availability:** The GitHub Copilot app is in technical preview and open to all existing Copilot Pro, Pro+, Max, Business, and Enterprise customers, with no waitlist.
 >
 > Access for Copilot Free users and new subscribers will be opening soon.
@@ -10,9 +16,15 @@ https://github.com/user-attachments/assets/50f215b5-f708-444e-83f7-3303bfa97963
 
 ## Overview
 
-The GitHub Copilot app is a desktop application purpose-built for agent-driven development. It gives you a single place to direct AI agents across parallel workstreams, work with GitHub issues and pull requests, and manage the full development lifecycle—without context-switching between terminals, IDEs, and browser tabs.
+## Introduction and overview
 
-The app is built on GitHub Copilot CLI and integrates natively with GitHub, so your repositories, branches, and CI pipelines work out of the box. It's designed for workflows where you want to run multiple agents in parallel and stay focused on directing work rather than doing it all yourself.
+The GitHub Copilot app is an agent-native desktop experience for managing software work from idea to pull request. It gives you a single control center for finding the right work to pick up, starting and steering agents, reviewing progress, and landing changes across repositories without constantly switching between terminals, editors, browser tabs, and GitHub pages.
+
+The app is built for parallel agent-driven development. Each local session runs in its own isolated git worktree, and cloud sessions let agents keep working in isolated GitHub-hosted environments that you can pick up from anywhere. That means you can have Copilot investigate bugs, implement issues, address review feedback, or explore changes side by side without branches or files colliding.
+
+Canvases turn agent work into shared, inspectable surfaces. Instead of burying plans, terminals, browser previews, diffs, and workflow state in a chat thread, canvases give you a place to see what an agent is doing, edit or redirect the work, and verify progress in context.
+
+But we also know as developers, much our time has always been devoted to tasks that aren't 'just' writing code. My Work brings together sessions, issues, pull requests, and repository context so you can decide what needs attention next. Automations turn repeatable prompts and workflows into scheduled or background tasks. Agent Merge helps carry pull requests through review, checks, and merge conditions so you stay focused on judgment, quality, and delivery.
 
 ## Getting started
 
