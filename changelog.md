@@ -1,5 +1,33 @@
 # Changelog
 
+## v1.0.0
+
+### Highlights
+
+- The Recent sessions view now supports bulk actions — select multiple sessions and archive or delete them at once, with new sortable Branch and Created columns.
+- The composer now shows a dedicated Tasks pill combining to-dos and background agents, plus a separate Plan pill that opens the plan document.
+- In Local mode, the session composer now includes a branch picker so you can choose which branch to start a session on.
+- Business, Enterprise, and GHES users whose organization had 'Editor preview features' disabled are no longer blocked from accessing the app during sign-in.
+- Your local repository vs. new worktree preference for new sessions now carries across projects, defaulting to the type you last chose.
+
+### Added
+
+- Added an About dialog (accessible via the GitHub menu) that includes a License and Open Source Notices section listing third-party dependency licenses.
+- Added an AI disclaimer — "GitHub Copilot uses AI. Check for mistakes." — at the bottom of the home view.
+- In Local mode, the session composer now shows a branch picker so you can choose which branch to start a session on instead of always using the current branch.
+- The Recent sessions view now supports bulk actions: select multiple sessions via checkboxes and archive or delete them at once. The view also gains sortable Branch and Created columns and a header actions menu with options to reset column widths or delete all archived sessions.
+
+### Changed
+
+- The composer now shows a dedicated Tasks pill that combines to-dos and background agents in one panel, plus a separate Plan pill that opens the plan document. The right-panel Plan tab is reserved for plan.md content and no longer appears for to-do-only sessions.
+
+### Fixed
+
+- Business, Enterprise, and GHES users whose organization had "Editor preview features" disabled are no longer blocked from accessing the app during sign-in.
+- Enlarged the checkbox hit target in the My work and Recent sessions tables so the full cell area toggles selection, not just the small checkbox box.
+- Fixed accessibility issues when customizing keyboard shortcuts in Settings: focus is now properly managed when entering capture mode, screen readers now announce shortcut recording state and results, and conflict resolution buttons are reachable by keyboard.
+- The local repository vs. new worktree choice for new sessions now carries across projects — opening a project you haven't configured before defaults to the type you last chose, instead of always resetting to a new worktree.
+
 ## v0.2.34
 
 ### Highlights
