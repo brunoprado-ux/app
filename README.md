@@ -8,9 +8,6 @@ The GitHub Copilot app is an agent-native desktop experience for finding, runnin
   </a>
 </p>
 
-> **Availability:** The GitHub Copilot app is in technical preview and open to all existing Copilot Pro, Pro+, Max, Business, and Enterprise customers, with no waitlist.
->
-> Access for Copilot Free users and new subscribers will be opening soon.
 
 https://github.com/user-attachments/assets/50f215b5-f708-444e-83f7-3303bfa97963
 
@@ -30,7 +27,6 @@ But we also know as developers, much our time has always been devoted to tasks t
 
 - [Git](https://github.com/git-guides/install-git)
 - An active paid [GitHub Copilot](https://github.com/features/copilot/plans) subscription, including Copilot Pro, Pro+, Max, Business, or Enterprise plans
-- For Business and Enterprise developers, the **Copilot CLI** and **Editor preview features** policies must be enabled by your plan administrator.
 
 ### Install
 
